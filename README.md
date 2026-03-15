@@ -19,13 +19,13 @@ Auto RDP Installer by aisitheru
 ## Quick Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aisitheru/rdp-installer-unoficial/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aisitheru/rdp-installer-unofficial/main/install.sh | bash
 ```
 
 Or with wget:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/aisitheru/rdp-installer-unoficial/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/aisitheru/rdp-installer-unofficial/main/install.sh | bash
 ```
 
 Requirements
@@ -70,7 +70,7 @@ Language Support
 Change language with:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aisitheru/rdp-installer-unoficial/main/install.sh | bash -s -- --lang id
+curl -fsSL https://raw.githubusercontent.com/aisitheru/rdp-installer-unofficial/main/install.sh | bash -s -- --lang id
 ```
 
 Directory Structure
@@ -109,10 +109,10 @@ git add .
 git commit -m "Initial commit: RDP Installer Unofficial v1.0.0"
 
 # Buat repository di GitHub (manual via website)
-# Nama repository: rdp-installer-unoficial
+# Nama repository: rdp-installer-unofficial
 
 # Hubungkan dengan remote
-git remote add origin https://github.com/aisitheru/rdp-installer-unoficial.git
+git remote add origin https://github.com/aisitheru/rdp-installer-unofficial.git
 git branch -M main
 git push -u origin main
 ```
@@ -141,10 +141,10 @@ Cara penggunaan:
 
 ```bash
 # Langsung dari curl
-curl -fsSL https://raw.githubusercontent.com/aisitheru/rdp-installer-unoficial/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aisitheru/rdp-installer-unofficial/main/install.sh | bash
 
 # Atau download dulu
-wget https://raw.githubusercontent.com/aisitheru/rdp-installer-unoficial/main/install.sh
+wget https://raw.githubusercontent.com/aisitheru/rdp-installer-unofficial/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
